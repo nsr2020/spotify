@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --color001:black;
+    --color002:wheat;
+    --color003:#fff;
+    --color004:#a9eb82;
+    --color005:rgba(58, 226, 7, 0.2);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color001);
+    width: 100%;
+   
+}
