@@ -1,3 +1,5 @@
+@import '../../../variables';
+
 .container-footer {
     width: 100%;
     min-height: 10svh;
@@ -5,7 +7,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-    border-top: 5px groove var(--color004);
+    border-top: 5px groove $color004;
     padding: 25px;
 
     .container-text {
@@ -15,7 +17,7 @@
         align-items: center;
 
         p {
-            color: var(--color003);
+            color: $color003;
             text-align: center;
             font-weight: bold;
             font-size: 25px;
@@ -25,7 +27,7 @@
     .container-images {
         display: flex;
         align-items: center;
-        gap: 10px; // Añadir un pequeño espacio entre los enlaces
+        gap: 10px;
 
         a {
             display: flex;

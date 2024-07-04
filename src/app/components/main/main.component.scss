@@ -1,3 +1,5 @@
+@import '../../../variables';
+
 main.main {
     display: flex;
     align-items: center;
@@ -19,7 +21,7 @@ main.main {
 
         h3 {
             font-size: 17px;
-            color: var(--color002);
+            color: $color002;
             margin-bottom: 20px;
             position: absolute;
             top: 0;
@@ -45,7 +47,7 @@ main.main {
         transition: all 0.5s;
 
         &:hover {
-            box-shadow: 0 8px 16px var(--color005);
+            box-shadow: 0 8px 16px $color005;
 
             .play {
                 visibility: visible;
@@ -70,14 +72,14 @@ main.main {
 
         h5 {
             font-size: 15px;
-            color: var(--color003);
+            color: $color003;
             margin: 0;
             font-weight: bold;
         }
 
         p {
             font-size: 15px;
-            color: var(--color002);
+            color: $color002;
             margin: 0;
         }
     }

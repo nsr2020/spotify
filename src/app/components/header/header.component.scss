@@ -1,15 +1,17 @@
+@import '../../../variables';
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
-    background-color: var(--color001);
-    color: var(--color003);
+    background-color: $color001;
+    color: $color003;
     height: 15svh;
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-bottom: 5px groove var(--color004);
+    border-bottom: 5px groove $color004;
 
     .header-left {
         display: flex;
@@ -39,7 +41,7 @@ header {
             li {
                 display: flex;
                 align-items: center;
-                color: var(--color003);
+                color: $color003;
                 margin-left: 1rem;
                 gap: 5px;
                 font-weight: bold;
@@ -50,10 +52,10 @@ header {
 
                 a {
                     text-decoration: none;
-                    color: var(--color003);
+                    color: $color003;
 
                     &:hover {
-                        color: var(--color004); // Cambiar a verde cuando se haga hover
+                        color: $color004; 
                     }
                 }
             }
@@ -67,10 +69,10 @@ header {
         gap: 20px;
 
         button {
-            background-color: var(--color004);
-            color: var(--color001);
+            background-color: $color004;
+            color: $color001;
             border: none;
-            width: 100px; // Tamaño fijo para los botones
+            width: 100px;
             padding: 10px;
             cursor: pointer;
             border-radius: 20px;
